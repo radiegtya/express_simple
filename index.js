@@ -6,7 +6,7 @@ const path = require('path');
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
-  res.send("mamikos")
+  res.send("mamikos 2 edited from github")
 });
 
 app.listen(port, () => {
